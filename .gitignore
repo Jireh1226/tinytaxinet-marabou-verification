@@ -1,0 +1,59 @@
+# LaTeX source and intermediates (not part of submission repo)
+*.tex
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+missfont.log
+
+# PDFs (write-ups are kept locally; submission repo is implementation-only)
+*.pdf
+
+# External vendored repositories (not committed; clone separately, see README)
+VerifyGAN/
+Prophecy/
+
+# Virtual environments
+prophecy_env/
+prophecy_env310/
+venv/
+env/
+.venv/
+
+# Image outputs (figures used in the report; report not committed)
+*.png
+
+# Marabou intermediate query files
+*.ipq
+
+# Python build/cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Claude / agent state
+.claude/
+
+# Working notes (markdown drafts kept locally but not committed)
+PROGRESS_LOG.md
+FEEDBACK_ALIGNMENT.md
+project_update.md
+final_presentation.md
+lightning_talk*.md
+pipeline_diagram.md
+proposal.md
+
+# Run logs from individual verification scripts
+p3_*.log
+perturbation_calibration.log
+evaluateWithMarabou.log
